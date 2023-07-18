@@ -53,6 +53,10 @@ body {
     text-align: center;
 }
 
+.footer-title {
+    color: #5D7ED7;
+}
+
 
 
 
@@ -260,70 +264,87 @@ section {
 
 /* *FOOTER */
 footer {
-    width: 100%;
-    height: 100%;
+  color: #FFFFFF;
+  background-color: #23272A;
 }
 
 /* Nav Footer */
 .row-nav {
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #000;
-    border-bottom: 1px solid #D3D3D3;
 }
 
 .row-nav .social {
     width: 30%;
-    height: 400px;
-    background-color: #F08080;
-    border: 1px dashed #000;
+}
+
+.row-nav .social .title {
+    font-size: 40px;
+    text-align: left;
+}
+
+.row-nav .social .text {
+    font-size: 20px;
+    text-align: left;
 }
 
 .row-nav .menu {
     width: 70%;
-    height: 400px;
-    background-color: #1EB1A9;
-    border: 1px dashed #FFFFFF;
 }
 
 .row-nav .menu .col {
     flex-basis: 25%;
 }
 
+.row-nav .menu .col p {
+    line-height: 35px;
+}
+
+.logo-ita img{
+    width: 25px;
+    padding-right: 5px;
+}
+
+.social-media span {
+    padding-right: 15px;
+}
+
+.social-media span i {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+
+
 
 /* Sign up */
 .row-signup {
     justify-content: center;
     align-items: flex-end;
-    background-color: #000;
+    border-top:1px solid #5D7ED7;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .row-signup .box-signup {
     width: 100%;
-    height: 80px;
     align-items: center;
     justify-content: space-between;
-    background-color: #7fffd4;
 
 }
 
 .box-signup .logo {
-    width: 10%;
-    height: 40px;
-    background-color: #feb5bf;
-    border: 1px dashed #000;
-    justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
-.box-signup .button {
-    width: 10%;
-    height: 40px;
-    background-color: #feb5bf;
-    border: 1px dashed #000;
-    justify-content: center;
-    align-items: center;
+.box-signup .registrati{
+    background-color: #5D7ED7;
+}
+
+.box-signup .registrati a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 /* /FOOTER */
