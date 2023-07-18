@@ -43,7 +43,6 @@ body {
 .title {
     font-size: 50px;
     font-weight: 600;
-    padding-bottom: 30px;
 }
 
 .text {
@@ -114,7 +113,7 @@ header {
     text-align: center;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .box-intro .intro {
@@ -127,7 +126,8 @@ header {
     padding-top: 20px;
 }
 
-.buttons .mac, .browser {
+.buttons .mac,
+.browser {
     display: inline-block;
     margin-left: 15px;
 }
@@ -142,9 +142,11 @@ header {
     color: #FFFFFF;
 }
 
-.buttons .mac a, .browser a {
+.buttons .mac a,
+.browser a {
     text-decoration: none;
-} 
+}
+
 /* /HEADER */
 
 
@@ -160,43 +162,38 @@ section {
 /* *Section Server */
 .box-server {
     justify-content: center;
-    align-items: center;
 }
 
 /* Immagine */
 .box-server .img {
     width: 60%;
-    padding-top: 35px;
+}
+
+/* Contenuto */
+.box-server .content {
+    width: 40%;
 }
 
 /* Testo */
-.box-server .content {
-    width: 40%;
+.box-server .content .title {
+    padding-top: 25px;
 }
 
 
 /* *Section Channel */
 .box-channel {
     justify-content: center;
-    align-items: center;
     flex-direction: row-reverse;
-    background-color: #D3D3D3;
 }
 
 /* Immagine */
 .box-channel .img {
     width: 60%;
-    height: 520px;
-    background-color: #1D90FF;
-    border: 1px dashed #000;
 }
 
 /* Testo */
-.box-channel .text {
+.box-channel .content {
     width: 40%;
-    height: 520px;
-    background-color: #ffbfcb;
-    border: 1px dashed #000;
 }
 
 
@@ -238,7 +235,8 @@ section {
     border: 1px dashed #000;
 }
 
-/* */MAIN */
+/* */
+MAIN */
 
 /* *FOOTER */
 footer {
