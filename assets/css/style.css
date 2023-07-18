@@ -152,7 +152,6 @@ header {
 .browser a {
     text-decoration: none;
 }
-
 /* /HEADER */
 
 
@@ -162,8 +161,10 @@ header {
 /* Website info */
 
 section {
-    padding: 40px 0;
+    padding: 80px 0;
 }
+
+
 
 /* *Section Server */
 .box-server {
@@ -186,6 +187,7 @@ section {
 }
 
 
+
 /* *Section Channel */
 .box-channel {
     justify-content: center;
@@ -197,43 +199,37 @@ section {
     width: 60%;
 }
 
-/* Testo */
+/* Contenuto */
 .box-channel .content {
     width: 40%;
 }
 
 
+
 /* *Section Community */
 .box-community {
     justify-content: center;
-    align-items: center;
 }
 
 /* Immagine */
 .box-community .img {
     width: 60%;
-    height: 520px;
-    background-color: #1D90FF;
-    border: 1px dashed #000;
 }
 
-/* Testo */
-.box-community .text {
+/* Contenuto */
+.box-community .content {
     width: 40%;
-    height: 520px;
-    background-color: #ffbfcb;
-    border: 1px dashed #000;
 }
+
 
 
 /* *Section Audio-video */
 .box-video-audio {
     justify-content: center;
-    align-items: center;
 }
 
 /* Immagine */
-.box-video-audio .audio-video img{
+.box-video-audio .audio-video img {
     justify-content: center;
     width: 100%;
 }
@@ -259,13 +255,15 @@ section {
     text-decoration: none;
     color: #FFFFFF;
 }
-
 /* /MAIN */
+
+
+
 
 /* *FOOTER */
 footer {
-  color: #FFFFFF;
-  background-color: #23272A;
+    color: #FFFFFF;
+    background-color: #23272A;
 }
 
 /* Nav Footer */
@@ -301,7 +299,7 @@ footer {
     line-height: 35px;
 }
 
-.logo-ita img{
+.logo-ita img {
     width: 25px;
     padding-right: 5px;
 }
@@ -317,12 +315,11 @@ footer {
 
 
 
-
 /* Sign up */
 .row-signup {
     justify-content: center;
     align-items: flex-end;
-    border-top:1px solid #5D7ED7;
+    border-top: 1px solid #5D7ED7;
     padding-top: 10px;
     padding-bottom: 50px;
 }
@@ -335,14 +332,14 @@ footer {
 }
 
 .box-signup .logo {
-    align-items: center; 
+    align-items: center;
 }
 
-.box-signup .registrati{
+.box-signup .registrati {
     background-color: #5D7ED7;
 }
 
-.box-signup .registrati a{
+.box-signup .registrati a {
     text-decoration: none;
     color: #FFFFFF;
 }
